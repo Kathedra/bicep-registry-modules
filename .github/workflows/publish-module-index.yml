@@ -2,8 +2,8 @@
 #   and also a human-readable HTML version.
 name: Publish module index
 on:
-  schedule:
-    - cron: 45 11 * * * # Run daily at 3:45 AM PST
+  #schedule:
+    #- cron: 45 11 * * * # Run daily at 3:45 AM PST
   workflow_dispatch:
 
 permissions:
