@@ -38,7 +38,7 @@ param gitAccountName string = ''
 param gitProjectName string = ''
 
 @description('Optional. The repository name.')
-param gitRepositoryName string = ''
+param gitRepositoryName string ?
 
 @description('Optional. The collaboration branch name. Default is \'main\'.')
 param gitCollaborationBranch string = 'main'
